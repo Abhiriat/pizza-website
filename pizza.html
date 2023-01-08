@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pizza</title>
+  <link rel="stylesheet" href="pizza.css">
+</head>
+<body>
+  <div class="container">
+    
+  <div class="header">
+     <span  class="header-text">PIZZA MANIA</span><div id="buttonu"><button id="b"><a>Home</a></button>&nbsp;&nbsp;&nbsp;<button id="b"><a>Deals</a></button>&nbsp;&nbsp;&nbsp;<button id="b"><a> Orders</a></button>&nbsp;&nbsp;&nbsp;<button id="b"><a>Help</a></button>&nbsp;</div>
+   <p id="content"><span id="some">Special</span> italian <span id="some">pizza's</span></p> 
+   <div>
+
+   <button class="signup" onclick="show()">Sign Up</button>
+  </div>
+  
+  </div>
+  <br>
+  <div class="main">
+    <div class="main-header">
+      <marquee id="scroll" direction="left">Order your pizza today!!! , Get %50off on small and large cheese pizza at this diwali season.Order your Rs109 meal and get a soft chicken nuggets free. Get special coupans on every purchase from pizza mania app</marquee>
+     <hr style="background-color: red">
+     <br>
+      <table id="element" class="element">
+        <tr>
+        <th id="ok">Select your pizzas in small range</th>&nbsp;
+        
+        <th id="ok">Select your pizzas in medium range</th>
+        &nbsp;
+        
+        <th id="ok">Select your pizzas in medium range</th>
+      </tr>
+      <tr>
+        <td><button id="order1" class="order1" value="A" onclick="addon1()">+</button><img src=""></td>
+        <td><button id="order2" class="order2" value="B" onclick="addon2()">+</button><img src=""></td>
+        <td><button id="order3" class="order3" value="C" onclick="addon3()">+</button><img src=""></td>
+      </tr>
+      </table>
+
+    </div>
+    
+
+
+  </div>
+  <div class="signup-box" id="signup-box">
+    <br>
+    <h1 class="head">Signup</h1>
+    <br><br><br>
+    <form id="boxuu">
+    <label id="input"><b>username:</b>&nbsp;</label><input type="text" id="username">
+    <br><br>
+    <label id="input" ><b>password:</b>&nbsp;</label><input type="password" id="password">
+   <br><br><br>
+    <input type="button" value="Login" id="login">
+    &nbsp;&nbsp;
+   <input type="submit" value="Close" onclick="closethis()" id="close">
+  </form></div>
+  <div class="order-list" id="order-list">
+
+   <table class="tab" id="tab">
+    <button id="closed1" onclick="closed()">&times;</button>
+    <h2 class="tabu">Order&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tabu3">Price</span></h2>
+    <tr  class="tab1"></tr>
+   </table>
+  
+   <button id="order" onclick="order()">order</button>
+   <button type="reset" id="order" onclick="reset()" >reset</button>
+  </div>
+  <div id="done"><span id="back">&#10004;</span>
+  <button id="donebtn"onclick="bye()">Your order is Done</button></div>
+  <div id="footer-menu"><button><span id="btn" class="btn" onclick="shown()" style="font-size:40px;">&#8743;</span></button><span id="order-text" class="order-text">&nbsp;your order  is adding in the menu!!,You can see it by clciking on arrow button</span></div>
+
+  
+</div>
+
+<script src="pizza.js"></script>
+
+</body>
+</html>
+   

@@ -1,0 +1,417 @@
+
+.header{
+  max-width: 1495px;
+  background-color:black;
+  margin-left: 8px;
+  margin-right: 8pX;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 30px;
+  letter-spacing: 4px;
+  box-shadow: 5px 5px 15px black;
+  border-radius: 8px;
+
+}
+.header-text{
+  margin-top: 205px;
+  box-shadow: 2px 2px 16px white;
+}
+#content{
+  font-style: italic;
+  margin-top: 30px;
+  word-spacing: 30px;
+  font-size: medium;
+  margin-top: -5px;
+}
+#some{
+  color: red;
+}
+#buttonu{
+  margin-right: 1000px;
+}
+#b{
+  background: black;
+  color:white;
+  width: 80px;
+  height: 40px;
+  border-radius: 15px;
+  border: 5px solid white;
+
+}
+#b:hover{
+  background-color: white;
+  color:red;
+  border:5px solid red ;
+}
+#image{
+  margin-left: 1300px;
+  margin-top: -50px;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 60px;
+  max-width: 30px;
+}
+#image:hover{
+  background-color: white;
+  border: 4px solid red;
+}
+.main{
+  border: 1px solid black;
+ max-width: 1500px;
+  height: 550px;
+  margin-left: 8px;
+  margin-right: 9px;
+  border-radius: 8px;
+  background-color: black;
+  box-shadow: 2px 2px 13px black;
+}
+.main-header{
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 55px;
+  background-color: red;
+  border:1px solid black;
+}
+#scroll{
+  color: white;
+  margin-top: 10px;
+  word-spacing: 10px;
+}
+.container{
+  max-width: 1500px;
+}
+.signup {
+width: 300px;
+margin-top: 20px;
+padding: 10px;
+border-radius: 15px;
+background-color: red;
+color: white;
+border: 6px solid white;
+font-family: sans-serif;
+font-size: medium;
+  }
+  .signup:hover{
+    background-color: antiquewhite;
+    color: red;
+    }
+    .signup-box{
+      background-color: white;
+    }
+    .signup-box{
+      background-color: white;
+      border: 1px solid black;
+      margin-top: -590px;
+      margin-left: 300px;
+      max-width: 400px;
+      height: 306px;
+      text-align: center;
+      border-radius: 15px;
+      box-shadow: 5px 5px 12px red;
+      display: none;
+      position: sticky;
+
+      
+    }
+    .signup:hover .signup-box{
+      display: block;
+    
+    }
+    #login{
+      max-width: 100px;
+      background-color: red;
+      border: none;
+      border-radius: 15px;
+      color: white;
+      padding: 10px;
+      margin-top: 5px;
+    }
+    #close{
+      max-width: 100px;
+      background-color: green;
+      border: none;
+      border-radius: 15px;
+      color: white;
+      padding: 10px;
+      margin-bottom: 5px;
+
+    }
+    #login:hover{
+      background-color: white;
+      color: black;
+      border: 1px solid red;
+    }
+    #close:hover{
+      background-color: white;
+      color: black;
+      border: 1px solid green;
+    }
+    .head{
+      color:black;
+      box-shadow: 5px 5px 12px red;
+      border-radius: 6px;
+     max-width: 150px;
+      margin: auto;
+    }
+    #input{
+      font-family: sans-serif;
+    box-shadow: 2px 2px 15px royalblue;
+    
+    }
+#username,#password{
+  border-radius: 15px;
+  background-color: pink;
+  padding: 6px;
+  max-width: 177.4px;
+  
+  border: 1.5px solid red;
+}
+@media only screen and (width:475px){
+  #username{
+    width: 25px;
+  }
+
+}
+.element{
+  color: white;
+}
+th{
+  border: 1px solid white;
+  padding:25px;
+  margin: 25px;
+  border-radius: 15px;
+  border-collapse: separate;
+  border-spacing: 10px,15px;
+  width: 550px;
+}
+table{
+  border-collapse: separate;
+  margin:auto;
+ }
+#ok{
+  background-color: red;
+  border: 15px dotted rgb(225, 207, 11);
+  color: white;
+  animation-name: runme;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes runme{
+  0%{
+    border: 10px dotted rgb(235, 235, 5);
+  }
+  100%{
+    border: 10px dotted white;
+
+  }
+  
+
+}
+#order1{
+  width: 70px;
+  margin-top: 15px;
+  background-color:white;
+  border-radius: 15px;
+  text-decoration: solid;
+  font-size: large;
+  
+}
+#order1:hover{
+  background-color: orange;
+}
+#order2{
+  width: 70px;
+  margin-top: 15px;
+  background-color:white;
+  border-radius: 15px;
+  text-decoration: solid;
+  font-size: large;
+  
+}
+#order2:hover{
+  background-color: orange;
+}
+#order3{
+  width: 70px;
+  margin-top: 15px;
+  background-color:white;
+  border-radius: 15px;
+  text-decoration: solid;
+  font-size: large;
+  
+}
+#order3:hover{
+  background-color: orange;
+}
+#order-list{
+  border: 1px solid white;
+ max-width: 320px;
+  height: 350px;
+  margin-left: 550px;
+  margin-top: -250px;
+  background-color: white;
+  border-radius: 9px;
+  background-color: orange;
+  color: red;
+  font-family: sans-serif;
+  display: none;
+  
+
+}
+.tab{
+  border: 1px solid white;
+  width: 265px;
+  margin-left: 25px;
+  border-radius: 11px;
+  background-color: white;
+  
+}
+.tabu{
+  margin-left: 25px;
+  background-color: green;
+  border-radius: 6px;
+  color: white;
+  font-family: sans-serif;
+  width: 68px;
+}
+.tab1
+{
+  border: 1px solid black;
+}
+#closed1{
+  background-color:black;
+  border: 1px solid black;
+  width: 1px;
+  height: 1px;
+  margin-left: 295px;
+  margin-top: -105px;
+  font-size:23px;
+  border-radius: 6px;
+  color: white;
+
+}
+
+#order{
+  margin-left: 55px;
+  background-color:orangered;
+  border: 1px solid orange;
+  width: 60px;
+  height: 30px;
+  margin-left: 50px;
+  margin-top: 35px;
+  font-size: small;
+  border-radius: 6px;
+  color: white;
+}
+#order:hover{
+  background-color: green;
+  margin-top: 32px;
+}
+.tabu3{
+  background-color: red;
+  width: 65px;
+  border-radius: 7px;
+}
+
+#footer-menu{
+  background-color: orange;
+  max-width: 1495px;
+  border-radius: 9px;
+  height: 55px;
+  margin-left: 7px;
+  margin-right: 8pX;
+  display: none;
+
+
+
+}
+.order-text{
+  color:white;
+  margin-left: 60px;
+  width: 160px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: serif;
+  font-size: large;
+  border: 2px solid red;
+  align-content: center;
+}
+@media screen and (max-width:874px){
+  #order-list{
+    margin-left: 40px;
+   
+  }
+  
+}
+@media screen and (max-width:374px){
+  #order-list{
+    margin-left: 2px;
+   
+  }
+  
+}
+@media  screen and (max-width:720px) {
+  #order-text{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 2px;
+  }
+  
+}
+#done{
+  border: 1px solid white;
+ max-width: 320px;
+  height: 350px;
+  margin-left: 550px;
+  margin-top: -250px;
+  background-color: white;
+  border-radius: 9px;
+  background-color: orange;
+  color: red;
+  font-family: sans-serif;
+  display:none;
+  font-size: 50px;
+
+  
+}
+#back{
+  background-color: antiquewhite;
+  width: 200px;
+  border-radius: 15px;
+  font-size: 200px;
+  margin-left: 80px;
+ 
+}
+@media screen and (max-width:874px){
+  #done{
+    margin-left: 40px;
+   
+  }
+  
+}
+@media screen and (max-width:374px){
+  #done{
+    margin-left: 2px;
+   
+  }
+  
+}
+#donebtn{
+  margin-left: 90px;
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: aliceblue;
+  background-color: green;
+  font-family: serif;
+}
+#donebtn:hover{
+  width: 120px;
+  background-color: orangered;
+  
+}
